@@ -1,12 +1,7 @@
 # HE-Diffusion
 
-[**Privacy-Preserving Diffusion Model Using Homomorphic Encryption**](https://arxiv.org/pdf/2403.05794.pdf)<br/>
-Yaojian Chen\,
-Qiben Yan\*,
-Lin Gan\,
-Guangwen Yang<br/>
 
-[HE-Diffusion](https://he-diffusion.github.io/) is a privacy-preserving latent text-to-image diffusion model based on [Stable diffusion](https://huggingface.co/CompVis/stable-diffusion). It works for protecting users' input prompts and output images during inference.
+[HE-Diffusion]is a privacy-preserving latent text-to-image diffusion model based on [Stable diffusion](https://huggingface.co/CompVis/stable-diffusion). It works for protecting users' input prompts and output images during inference.
 
   
 ## Requirements
@@ -83,18 +78,4 @@ which contain both types of weights. For these, `use_ema=False` will load and us
 
 ## Content under development and future work
 Here we only support text to image task, which is most relevantly used. In the future we will try to propose more complete tasks.
-
-## BibTeX
-
-```
-@misc{chen2024privacypreserving,
-      title={Privacy-Preserving Diffusion Model Using Homomorphic Encryption}, 
-      author={Yaojian Chen and Qiben Yan},
-      year={2024},
-      eprint={2403.05794},
-      archivePrefix={arXiv},
-      primaryClass={cs.CR}
-}
-```
-
 
